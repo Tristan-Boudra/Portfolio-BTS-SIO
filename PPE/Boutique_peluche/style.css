@@ -1,0 +1,73 @@
+.peluche{
+    padding: 10px;
+    border:1px solid black;
+    width: 230px;
+    justify-self: center;
+    text-align: center;
+}
+
+.peluche img{
+    width:90%;
+    margin: auto ;
+}
+
+
+
+
+/*Aligner la date*/
+#date {
+    text-align: center;
+}
+
+
+
+
+
+/*Design des cards des peluches*/
+#liste, #panier{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 22px;
+    justify-content: start;
+}
+
+button, .peluche, #panier{
+    border-radius: 10px;
+}
+
+
+
+
+
+#titre_panier {
+    padding: 50px 50px 50px 50px ;
+    text-align: center;
+}
+
+
+
+
+
+/*Design du panier*/
+#panier{
+    padding: 20px;
+    border: 1px solid black;
+    height: 350px;
+    width: 1200px;
+}
+
+
+
+
+/*Padding tout autour du contenu du container*/
+.container {
+    padding: 20px 20px 100px 20px;
+}
+
+
+
+@media screen and (max-width: 1200px){
+    #liste,#panier{
+        flex-wrap: wrap;
+    }
+}
