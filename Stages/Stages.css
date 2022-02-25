@@ -155,10 +155,8 @@ transform: translateX(-50%) scaleX(1);
 
 
 
-
-
 .taches_stage1, .taches_stage2 {
-     padding: 0 50px 300px 0;
+     padding: 0 10px 300px 10px;
      width: 100%;
 }
 
@@ -220,6 +218,12 @@ h4 {
      border-bottom-style: none;
      border-right-style: none;
      border-top-style: none;
+}
+
+@media screen and (max-width: 600px) {
+     .Quizz_JDB {
+          display: none;
+     }
 }
 
 #SurveyMonkey {
@@ -471,9 +475,8 @@ h4 {
 
 .Morel_4_1{
      width: 550px;
-     height: 200px;
+     height: 100px;
      margin: auto;
-     margin-bottom: -100px;
 }
 
 .blog_morel{
@@ -485,6 +488,9 @@ h4 {
      margin-bottom: 100px;
 }
 
+.lien_documentation{
+    margin-left: 850px;
+}
 
 /*Footer*/
 footer {
@@ -518,4 +524,11 @@ footer {
      position: relative;
      z-index: 1000;
 }
+
+
+@media screen and (max-width: 900px) {
+     .kathekon h4 {
+     font-size: 30px;
+     }
+   }
 

@@ -35,7 +35,6 @@ header{
 }
 
 
-
 body{
     margin: 0;
     font-family: 'Montserrat', sans-serif;
@@ -71,29 +70,30 @@ footer {
     width: 100%;
   }
   
-  .background_footer {
-    width: 100%;
-    position: absolute;
-    left: 0;
-    margin-top: -240px;
-  }
+.background_footer {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  margin-top: -240px;
+}
   
-  .contenu_footer {
-    position: relative;
-    z-index: 1000;
-    color: #E8E8E8;
-  }
+.contenu_footer {
+  position: relative;
+  z-index: 1000;
+  color: #E8E8E8;
+}
 
 
 
 
 
 h1 {
-   text-align: center;
-   margin: 0;
-   width: 100%;
-   padding-top: 25px;
-   font-weight: bold;
+  text-align: center;
+  margin: 0;
+  width: 100%;
+  padding-top: 25px;
+  font-weight: bold;
+  color: red;
  }
  
 h2 {
@@ -128,10 +128,11 @@ a {
 }
 
 .PPE1, .PPE2 {
-    background: white;
-    min-height: 100vh;
-    padding: 50px 100px 50px 100px;
+  background: white;
+  min-height: 100vh;
+  padding: 50px 100px 50px 100px;
 }
+
 
 .PPE1 > div {
     display: flex;
@@ -168,14 +169,39 @@ a {
     padding: 20px;
     text-align: center;
     font-size: 19px;
-    margin-left: 210px;
+    margin: auto
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
   .bloc_PPE1{
-    width: 200px;
-    height: 200px;
-    margin-left: auto;
+    width: 850px;
+    height: 650px;
+    margin-right: 2em;
+  }
+  .PPE1{
+    min-height: 60vh;
+    margin-left: -150px;
+  }
+  header{
+    min-height: 40vh;
+  }
+  .titre_bloc_PPE1{
+    font-size: 45px;
+  }
+  .texte_PPE1{
+    font-size: 30px;
+  }
+  .container_header{
+    height: 50vh;
+  }
+  .nom_prenom{
+    font-size: 60px;
+  }
+  .titre_PPE1{
+    font-size: 55px;
+  }
+  p{
+    font-size: 30px;
   }
 }
 
@@ -184,7 +210,7 @@ a {
 }
 
 .texte_PPE1, .texte_PPE2 {
-    padding: 20px;
+    padding: 30px;
 }
 
 /*Ligne blanche en dessous de mon nom et prenom*/
