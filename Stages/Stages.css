@@ -49,14 +49,10 @@ header {
 }
 
 
-
-
-
 body{
      margin: 0;
      font-family: 'Montserrat', sans-serif;
 }
-
 
 
 h1 {
@@ -126,20 +122,20 @@ a {
    
    
 .nom_prenom::after{
-content: "";
-position: absolute;
-left: 50%;
-bottom: 0;
-transform: translateX(-50%) scaleX(0);
-transform-origin: 50% 50%;
-width: 100%;
-height: 1px;
-background: white;
-transition: transform 250ms;
+     content: "";
+     position: absolute;
+     left: 50%;
+     bottom: 0;
+     transform: translateX(-50%) scaleX(0);
+     transform-origin: 50% 50%;
+     width: 100%;
+     height: 1px;
+     background: white;
+     transition: transform 250ms;
 }
 
 .nom_prenom:hover::after{
-transform: translateX(-50%) scaleX(1);
+     transform: translateX(-50%) scaleX(1);
 }
 
 
@@ -185,15 +181,11 @@ h4 {
 /*Partie du site web*/
 
 .site_web_JDB {
-     border: 1px solid black;
      width: 550px;
-     height: 200px;
+     height: 300px;
      padding: 20px;
-     margin-top: 60px;
-     margin-left: 200px;
-     border-bottom-style: none;
-     border-left-style: none;
-     border-top-style: none;
+     margin-top: 100px;
+     margin: auto;
 }
 
 .lien_site_JDB  {
@@ -209,15 +201,11 @@ h4 {
 /*Partie du Quizz*/
 
 .Quizz_JDB {
-     border: 1px solid black;
      width: 550px;
-     height: 300px;
+     height: 400px;
      padding: 20px;
-     margin-top: 60px;
-     margin-left: 1120px;
-     border-bottom-style: none;
-     border-right-style: none;
-     border-top-style: none;
+     margin-top: 1000px;
+     margin: auto;
 }
 
 @media screen and (max-width: 600px) {
@@ -236,15 +224,11 @@ h4 {
 /*Partie sur les réseaux sociaux*/
 
 .reseau_sociaux_JDB {
-     border: 1px solid black;
      width: 550px;
      height: 200px;
      padding: 20px;
-     margin-top: 60px;
-     margin-left: 200px;
-     border-bottom-style: none;
-     border-left-style: none;
-     border-top-style: none;
+     margin-top: 100px;
+     margin: auto;
 }
 
 .lien_facebook_JDB {
@@ -261,7 +245,7 @@ h4 {
 
 .kathekon p{
      width: 550px;
-     height: 200px;
+     height: 300px;
      padding: 20px;
      /*margin-top: 60px;
      margin-left: 200px;*/
@@ -276,8 +260,8 @@ h4 {
 
 .Kathekon_1_1{
      width: 550px;
-     height: 200px;
-     margin-left: 200px;
+     height: 300px;
+     margin: auto;
      margin-bottom: -100px;
 }
 
@@ -286,14 +270,15 @@ h4 {
      width: 550px;
      display: flex;
      flex-direction: column;
-     margin-left: 200px;
+     margin: auto;
      margin-bottom: 100px;
 }
 
 .Kathekon_1_2{
      width: 550px;
+     margin-top: 100px;
      height: 200px;
-     margin-left: 1120px;
+     margin: auto;
      margin-bottom: -100px;
 }
 
@@ -302,14 +287,14 @@ h4 {
      width: 500px;
      display: flex;
      flex-direction: column;
-     margin-left: 1120px;
+     margin: auto;
      margin-bottom: 100px;
 }
 
 .Kathekon_1_3{
      width: 550px;
      height: 200px;
-     margin-left: 200px;
+     margin: auto;
      margin-bottom: -100px;
 }
 
@@ -318,14 +303,14 @@ h4 {
      width: 500px;
      display: flex;
      flex-direction: column;
-     margin-left: 200px;
+     margin: auto;
      margin-bottom: 100px;
 }
 
 .Kathekon_1_4{
      width: 550px;
      height: 200px;
-     margin-left: 1120px;
+     margin: auto;
      margin-bottom: -100px;
 }
 
@@ -334,14 +319,14 @@ h4 {
      width: 550px;
      display: flex;
      flex-direction: column;
-     margin-left: 1120px;
+     margin: auto;
      margin-bottom: 100px;
 }
 
 .Kathekon_1_5{
      width: 550px;
      height: 200px;
-     margin-left: 200px;
+     margin: auto;
      margin-bottom: -100px;
 }
 
@@ -350,14 +335,14 @@ h4 {
      width: 800px;
      display: flex;
      flex-direction: column;
-     margin-left: 200px;
+     margin: auto;
      margin-bottom: 100px;
 }
 
 .Kathekon_1_6{
      width: 550px;
      height: 200px;
-     margin-left: 1120px;
+     margin: auto;
      margin-bottom: -100px;
 }
 
@@ -366,7 +351,7 @@ h4 {
      width: 500px;
      display: flex;
      flex-direction: column;
-     margin-left: 1120px;
+     margin: auto;
      margin-bottom: 100px;
 }
 
@@ -376,7 +361,7 @@ h4 {
 
 .VM_Automation p{
      width: 550px;
-     height: 200px;
+     height: 300px;
      padding: 20px;
      /*margin-top: 60px;
      margin-left: 200px;*/
@@ -387,7 +372,7 @@ h4 {
 .VMA_2_1, .Pascalis_3_1{
      width: 550px;
      height: 200px;
-     margin-left: 200px;
+     margin: auto;
      margin-bottom: -100px;
 }
 
@@ -396,14 +381,14 @@ h4 {
      width: 600px;
      display: flex;
      flex-direction: column;
-     margin-left: 200px;
+     margin: auto;
      margin-bottom: 100px;
 }
 
 .VMA_2_2, .Pascalis_3_2{
      width: 550px;
      height: 200px;
-     margin-left: 1120px;
+     margin: auto;
      margin-bottom: -100px;
 }
 
@@ -412,14 +397,14 @@ h4 {
      width: 500px;
      display: flex;
      flex-direction: column;
-     margin-left: 1120px;
+     margin: auto;
      margin-bottom: 100px;
 }
 
 .VMA_2_3{
      width: 550px;
      height: 200px;
-     margin-left: 200px;
+     margin: auto;
      margin-bottom: -100px;
 }
 
@@ -428,7 +413,7 @@ h4 {
      width: 500px;
      display: flex;
      flex-direction: column;
-     margin-left: 200px;
+     margin: auto;
      margin-bottom: 100px;
 }
 
@@ -442,7 +427,7 @@ h4 {
      width: 700px;
      display: flex;
      flex-direction: column;
-     margin-left: 200px;
+     margin: auto;
      margin-bottom: 100px;
 }
 
@@ -451,13 +436,13 @@ h4 {
      width: 600px;
      display: flex;
      flex-direction: column;
-     margin-left: 1120px;
+     margin: auto;
      margin-bottom: 100px;
 }
 
 .Pascalis p{
      width: 550px;
-     height: 200px;
+     height: 300px;
      padding: 20px;
      /*margin-top: 60px;
      margin-left: 200px;*/
@@ -489,7 +474,8 @@ h4 {
 }
 
 .lien_documentation{
-    margin-left: 850px;
+     margin: auto;
+     text-align: center;
 }
 
 /*Footer*/

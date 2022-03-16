@@ -150,27 +150,27 @@ a {
 /*Bloc de veille*/
 
 .veille {
-    background: white;
-    min-height: 100vh;
-    padding: 50px 100px 50px 100px;
+  background: white;
+  min-height: 100vh;
+  padding: 50px 100px 50px 100px;
 }
 
 .veille > div {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 100px;
-    flex-wrap: wrap;
-    gap: 30px;
-    padding: 20px 200px 300px 200px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px 200px 300px 200px;
 }
 
 .titre_veille {
-    text-align: center;
-    margin-top: 250px;
-    text-decoration: none;
-    font-size: 50px;
-    font-weight: bold;
-    color: #E8E8E8;
+  text-align: center;
+  margin-top: 250px;
+  text-decoration: none;
+  font-size: 50px;
+  font-weight: bold;
+  color: #E8E8E8;
 }
  
 .lien_bloc_veille {
