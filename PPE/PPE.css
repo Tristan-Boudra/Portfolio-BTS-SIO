@@ -178,9 +178,12 @@ a {
     height: 650px;
     margin-right: 2em;
   }
+
+  .PPE1 > div {
+    margin: auto;
+  }
   .PPE1{
-    min-height: 60vh;
-    margin-left: -150px;
+    margin: auto;
   }
   header{
     min-height: 40vh;
@@ -194,7 +197,7 @@ a {
   .container_header{
     height: 50vh;
   }
-  .nom_prenom{
+  a .nom_prenom{
     font-size: 60px;
   }
   .titre_PPE1{
@@ -248,14 +251,21 @@ a {
   /*Site de peluche*/
 
 .site_peluche{
-  padding: 200px 200px 300px 200px;
+  padding-bottom: 50px;
   margin: auto;
+  width: 800px;
 }
 
 .img_site_peluche{
-  width: 800px;
+  width: 700px;
   height: 400px;
   margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .img_site_peluche{
+    margin: auto;
+  }
 }
 
 .bloc_site_peluche{
@@ -274,11 +284,6 @@ ul{
   columns: 3;
 }
 
-.azerty{
-  width: 40px;
-}
-
-
 
 /*CoVoit*/
 
@@ -289,7 +294,7 @@ ul{
   margin: auto;
   padding: 50px;
   border-radius: 20px;
-  margin-bottom: 200px;
+  margin-bottom: 50px;
 }
 
 .container_covoit h1{

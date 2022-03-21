@@ -474,7 +474,7 @@ h4 {
 }
 
 .lien_documentation{
-     margin: auto;
+     margin: auto !important;
      text-align: center;
 }
 

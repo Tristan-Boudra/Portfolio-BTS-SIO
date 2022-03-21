@@ -33,6 +33,12 @@ body{
   z-index: 999;
 }
 
+@media screen and (max-width: 600px) {
+  .btn {
+    left: 0;
+  }
+}
+
 .icone {
   width: 50px;
 }
@@ -114,6 +120,9 @@ header{
   .titre_bienvenue {
     margin-top: -150px;
     font-size: 30px;
+  }
+  .bienvenue{
+    margin-top: 200px;
   }
 }
 
@@ -314,6 +323,42 @@ b {
   /*background: #001845;*/
   background-color: #001845;
   flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+  .competences_technique {
+  display: none;
+  }
+}
+
+.mobile_competences {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .mobile_competences {
+    display: flow-root;
+    font-size: 30px;
+    padding: 10px;
+    background-color: #001845;
+    height: 100vh;
+  }
+  label {
+    padding-right: 10px;
+    font-size: 17px;
+    color: white;
+  }
+  .text_competences_technique {
+    margin: auto;
+  }
+  .bar_progress {
+    margin-top: 100px;
+    padding: 20px;
+  }
+  .progress {
+    margin-top: 5px;
+    width: 200px;
+  }
 }
 
 .text_competences_technique {
@@ -1079,6 +1124,7 @@ b {
 
 .titre_ppe {
   margin-top: -20px;
+  margin: auto;
 }
 
 .presentation_ppe {
