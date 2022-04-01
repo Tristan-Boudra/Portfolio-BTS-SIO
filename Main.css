@@ -226,6 +226,7 @@ header{
   height: 500px;
   border-radius: 30px;
   font-size: 18px;
+  box-shadow: 0 10px 15px rgb(0 0 0 / 50%);
 }
 
 @media screen and (max-width: 600px) {
@@ -446,15 +447,15 @@ b {
 }
 
 .progression_dev_web:nth-child(2) .progression_background_dev_web_2 {
-  width: 85%;
+  width: 70%;
 }
 
 .progression_dev_web:nth-child(3) .progression_background_dev_web_3 {
-  width: 50%;
+  width: 65%;
 }
 
 .progression_dev_web:nth-child(4) .progression_background_dev_web_4 {
-  width: 40%;
+  width: 55%;
 }
 /*
 @media screen and (max-width: 1000px) {
@@ -536,7 +537,7 @@ b {
               inset -6px -6px 6px #ffffff;
 }
 
-.progression_programmation .progression_background_programmation_1, .progression_background_programmation_2, .progression_background_programmation_3{
+.progression_programmation .progression_background_programmation_1, .progression_background_programmation_2{
   height: 100%;
   width: 50%;
   border-radius: 20px;
@@ -549,11 +550,7 @@ b {
 }
 
 .progression_programmation:nth-child(2) .progression_background_programmation_2 {
-  width: 50%;
-}
-
-.progression_programmation:nth-child(3) .progression_background_programmation_3 {
-  width: 80%;
+  width: 30%;
 }
 
 
@@ -578,7 +575,7 @@ b {
 }
 
 .os::before {
-  content: "OS";
+  content: "Système d'exploitation";
   position: absolute;
   top: -29px;
   left: 40px;
@@ -640,7 +637,7 @@ b {
 }
 
 .progression_os:nth-child(2) .progression_background_os_2 {
-  width: 85%;
+  width: 90%;
 }
 
 
@@ -1203,7 +1200,7 @@ b {
 .certifications > div {
   display: flex;
   justify-content: space-around;
-  margin-top: 240px;
+  margin-top: 100px;
   flex-wrap: wrap;
   gap: 30px;
   padding: 10px;
@@ -1499,14 +1496,12 @@ b {
 
 .CV {
   background-color: white;
-  min-height: 100vh;
   padding: 50px 50px 50px 50px;
 }
 
 .CV > div{
   display: flex;
   justify-content: space-around;
-  margin-top: 180px;
   flex-wrap: wrap;
   gap: 30px;
   padding: 10px;

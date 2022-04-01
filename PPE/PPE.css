@@ -93,7 +93,6 @@ h1 {
   width: 100%;
   padding-top: 25px;
   font-weight: bold;
-  color: red;
  }
  
 h2 {
@@ -106,7 +105,7 @@ h3 {
 
 
 h1 a {
-   color: #E8E8E8;
+   color: #0466c8;
 }
  
 h1 a:hover {
@@ -129,7 +128,7 @@ a {
 
 .PPE1, .PPE2 {
   background: white;
-  min-height: 100vh;
+  min-height: 75vh;
   padding: 50px 100px 50px 100px;
 }
 
@@ -138,9 +137,8 @@ a {
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
-    margin-left: -200px;
     flex-wrap: wrap;
-    padding-left: 400px;
+    margin: auto;
 }
 
 .titre_PPE1, .titre_PPE2 {
@@ -289,7 +287,7 @@ ul{
 
 .container_covoit{
   border: 1px solid black;
-  height: 800px;
+  height: 1220px;
   width: 800px;
   margin: auto;
   padding: 50px;
@@ -311,4 +309,9 @@ ul{
   height: 350px;
   margin: auto;
   margin-top: 50px;
+}
+
+.img_covoit2 {
+  margin: auto;
+  display: flex;
 }
